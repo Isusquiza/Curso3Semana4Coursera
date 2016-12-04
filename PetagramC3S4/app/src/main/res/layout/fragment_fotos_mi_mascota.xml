@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="mx.cesarestudio.petagram.fragment.FotosMiMascota">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circuloIV"
+        android:layout_width="@dimen/circulo"
+        android:layout_height="@dimen/circulo"
+        android:layout_gravity="center"
+        android:src="@drawable/perro1"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#8BC34A"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beetovhen"
+        android:gravity="center"
+        android:textSize="@dimen/activity_horizontal_margin"
+        />
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listaMascotas2"
+
+
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

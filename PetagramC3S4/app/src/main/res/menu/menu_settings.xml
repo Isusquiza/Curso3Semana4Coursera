@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:title="@string/contacto"
+        android:id="@+id/opcionContacto"
+        android:orderInCategory="1"
+        >
+
+    </item>
+    <item
+        android:title="@string/AcercaDe"
+        android:id="@+id/opcionAcercaDe"
+        android:orderInCategory="2"
+        >
+
+    </item>
+    <item
+        android:id="@+id/estrellaFav"
+        android:title="@string/botonEstrella"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        android:icon="@mipmap/estrella"
+        >
+
+    </item>
+
+</menu>

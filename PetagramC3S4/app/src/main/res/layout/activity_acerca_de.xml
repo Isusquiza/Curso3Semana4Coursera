@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.cesarestudio.petagram.AcercaDe">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/programador"
+        android:layout_below="@+id/barraFavoritos"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/tvProgramador"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvProgramador"
+        android:text="@string/descripcion"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        ></TextView>
+</RelativeLayout>
+

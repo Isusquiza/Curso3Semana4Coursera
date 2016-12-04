@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="MensajeLike">Has dado un hueso a: </string>
+    <string name="AcercaDe">Acerca De</string>
+    <string name="contacto">Contacto</string>
+    <string name="botonEstrella">Boton Estrella</string>
+    <string name="favoritos">Favoritoa</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="sbAccion">No hay acción aún</string>
+    <string name="enviarMsg">Enviar Mensaje</string>
+    <string name="programador"> Cesar Vazquez </string>
+    <string name="descripcion">Estudiante de ing Sistemas y estudiante de Coursera</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
